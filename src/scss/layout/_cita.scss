@@ -1,0 +1,27 @@
+@use 'base/variables' as v;
+
+.seccion{
+    padding: 5rem 0;
+    display: none;
+
+    .text-center{
+        text-align: center;
+    }
+}
+
+.mostrar{
+    display: block;
+}
+.ocultar{
+    display: none;
+}
+
+.barra{
+    p{
+        font-size: 3rem;
+        font-weight: bold;
+        color: v.$azul;
+    }
+
+    
+}
